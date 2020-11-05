@@ -1,0 +1,15 @@
+.intro__list {
+  padding: 0;
+  margin: 34px 0 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .intro__list {
+    margin-top: 33px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 64px;
+  padding-left: 16px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    padding: 0 24px;
+    margin-top: 89px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    margin-top: 92px;
+  }
+}

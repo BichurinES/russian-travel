@@ -1,0 +1,32 @@
+.lead__image {
+  position: relative;
+  z-index: 0;
+  margin: 40px auto 0;
+  background-image: url('../../../images/lead-polka.jpg');
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  padding-bottom: 62.5%;
+
+}
+
+@media (min-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    width: calc(100% - 48px * 2);
+    padding-bottom: calc((100% - 48px * 2) * 580 / 928);
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    width: calc(100% - 148px * 2);
+    padding-bottom: calc((100% - 148px * 2) * 615 / 984);
+    margin-top: 64px;
+  }
+}

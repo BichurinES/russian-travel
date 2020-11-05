@@ -1,0 +1,16 @@
+.footer__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .footer__list {
+    display: flex;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

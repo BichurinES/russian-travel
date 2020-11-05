@@ -1,0 +1,13 @@
+.place__image {
+  display: block;
+  margin: 32px 0;
+  width: 100%;
+  object-fit: contain;
+  font-size: 0;
+}
+
+@media (min-width: 768px) {
+  .place__image {
+    margin: 0;
+  }
+}

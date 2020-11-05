@@ -1,0 +1,11 @@
+.lead__image-inner {
+  position: absolute;
+  background-image: url('../../../images/lead-polka-inner.svg');
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  top: 14.67%;
+  left: calc(100% * 7.57 / 320);
+  right: calc(100% * 7.69 / 320);
+  bottom: 42.57%;
+}
