@@ -7,24 +7,27 @@
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
-  <header>
-    <div class="header">
+  <header class="header">
       <a href="#" class="header__logo"></a>
-      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
-    </div>
-    <div class="lead">
-      <h1 class="lead__title">Путешествия по России</h1>
-      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image">
-        <div class="lead__image-inner"></div>
-      </div>
-      <p class="lead__caption">ваша полка — верхняя</p>
-    </div>
+      <ul class="header__list">
+        <li class="header__list-item"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li class="header__list-item"><a href="#" class="header__lang-link">En</a></li>
+      </ul>
   </header>
 
   <main>
-    <article class="intro">
+    <section class="lead">
+      <h1 class="lead__title">Путешествия по России</h1>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <figure class="lead__image-wrapper">
+        <div class="lead__image">
+          <div class="lead__image-inner"></div>
+        </div>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
+    </section>
+
+    <article class="intro page__intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
         но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
@@ -44,25 +47,25 @@
     </article>
 
     <section class="photo">
-      <ul class="photo-grid">
-        <li class="photo-grid__item"><img src="images/photo-grid-train.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-atharva-tulsi.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-tuman.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-sochi.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-arisa.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-baikal.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-elbrus.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-kondratiev.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-kamchatka-1.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-kamchatka-2.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-baikal-2.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
-        <li class="photo-grid__item"><img src="images/photo-grid-ergaki.jpg" alt="Фото пейзажа" class="photo-grid__image"></li>
+      <ul class="photo-grid page__photo-grid">
+        <li class="photo-grid__item"><img src="images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-atharva-tulsi.jpg" alt="Заснеженные горы" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-tuman.jpg" alt="Волк в поле" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-sochi.jpg" alt="Туманный лес" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-arisa.jpg" alt="Машина на льду" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-baikal.jpg" alt="Пляж на море" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-elbrus.jpg" alt="Заснеженные вершины гор" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-kondratiev.jpg" alt="Белые блоки и дорожный знак пешехода" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-kamchatka-1.jpg" alt="Горы в облаках" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-kamchatka-2.jpg" alt="Поле и закат падает на горы" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-baikal-2.jpg" alt="Скалы на берегу моря" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="images/photo-grid-ergaki.jpg" alt="Горы в облаках" class="photo-grid__image"></li>
       </ul>
     </section>
     <section class="places">
-      <article class="place">
+      <article class="place page__place">
         <h2 class="place__title">Куршская коса</h2>
-        <img src="images/place-kosa.jpg" alt="Фото достопримечательности" class="place__image">
+        <img src="images/place-kosa.jpg" alt="Фото Куршская косы" class="place__image">
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
           <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
@@ -79,9 +82,9 @@
             и запах стального, прохладного моря.</p>
         </div>
       </article>
-      <article class="place">
+      <article class="place page__place">
         <h2 class="place__title">Кольский</h2>
-        <img src="images/place-kolsky.jpg" alt="Фото достопримечательности" class="place__image">
+        <img src="images/place-kolsky.jpg" alt="Фото Кольского полуострова" class="place__image">
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
           <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National Geographic</a>
@@ -96,9 +99,9 @@
             Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
         </div>
       </article>
-      <article class="place">
+      <article class="place page__place">
         <h2 class="place__title">Алтай</h2>
-        <img src="images/place-altai.jpg" alt="Фото достопримечательности" class="place__image">
+        <img src="images/place-altai.jpg" alt="Фото Алтая" class="place__image">
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
           <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link">Facebook</a>
@@ -114,9 +117,9 @@
             И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
       </article>
-      <article class="place">
+      <article class="place page__place">
         <h2 class="place__title">Зимний Байкал</h2>
-        <img src="images/place-winter-baikal.jpg" alt="Фото достопримечательности" class="place__image">
+        <img src="images/place-winter-baikal.jpg" alt="Фото зимнего Байкала" class="place__image">
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
           <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
@@ -131,9 +134,9 @@
             В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
       </article>
-      <article class="place">
+      <article class="place page__place">
         <h2 class="place__title">Карелия</h2>
-        <img src="images/place-karelia.jpg" alt="Фото достопримечательности" class="place__image">
+        <img src="images/place-karelia.jpg" alt="Фото Карелии" class="place__image">
         <div class="place__website">
           <h3 class="place__url-heading">URL</h3>
           <a href="http://vodlozero.ru" target="_blank" class="place__link">http://vodlozero.ru/</a>
@@ -151,7 +154,7 @@
       </article>
     </section>
 
-    <section class="cover">
+    <section class="cover page__cover page__relative-block">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
         <h2 class="cover__title">До Байкала &laquo;на&nbsp;собаках&raquo;</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и&nbsp;iframes — путешествие

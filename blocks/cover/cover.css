@@ -1,12 +1,10 @@
 .cover {
   display: flex;
-  position: relative;
   z-index: 0;
   max-width: 1184px;
   height: 62.5vw;
   min-height: 200px;
   max-height: 740px;
-  margin: 66px auto 0;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -30,6 +28,6 @@
   opacity: .3;
 }
 
-.cover:hover {
+.cover:hover::before {
   opacity: .8;
 }
