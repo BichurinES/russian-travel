@@ -1,17 +1,19 @@
 .footer {
   padding-top: 64px;
-  padding-left: 16px;
 }
 
 @media (min-width: 768px) {
   .footer {
     display: flex;
-    padding: 89px 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 89px;
+    padding-bottom: 32px;
   }
 }
 
 @media (min-width: 1024px) {
   .footer {
-    padding: 92px 48px 0;
+    padding-top: 92px;
   }
 }

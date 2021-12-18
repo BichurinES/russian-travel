@@ -1,19 +1,19 @@
 .page__place {
-  margin: 0 auto 49px;
+  margin-top: 49px;
 }
 
 @media (min-width: 768px) {
   .page__place {
-    margin-bottom: 73px;
+    margin-top: 73px;
   }
 }
 
 @media (min-width: 1024px) {
   .page__place {
-    margin-bottom: 80px;
+    margin-top: 80px;
   }
 }
 
-.page__place:last-child {
-  margin-bottom: 0;
+.page__place:first-child {
+  margin-top: 0;
 }

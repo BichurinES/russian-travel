@@ -1,16 +1,10 @@
 .header__logo {
   display: block;
-  margin-right: auto;
   background-image: url('../../../images/header-logo.svg');
   background-position: center;
   background-size: cover;
   width: 142px;
   height: 42px;
-  transition: opacity .5s ease;
-}
-
-.header__logo:hover {
-  opacity: .8;
 }
 
 @media (min-width: 768px) {

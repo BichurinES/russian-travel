@@ -1,18 +1,13 @@
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   box-sizing: border-box;
-  padding: 16px 16px 0;
+  padding-top: 16px;
 }
 
 @media (min-width: 768px) {
   .header {
-    padding: 28px 24px 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .header {
-    padding: 28px 48px 0;
+    padding-top: 28px;
   }
 }

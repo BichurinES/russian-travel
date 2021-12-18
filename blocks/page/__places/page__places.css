@@ -1,0 +1,26 @@
+.page__places {
+  margin-top: 64px;
+}
+
+@media (min-width: 768px) {
+  .page__places {
+    margin-top: 88px;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__places {
+    margin-top: 92px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .page__places {
+    margin-right: 148px;
+    margin-left: 148px;
+  }
+}

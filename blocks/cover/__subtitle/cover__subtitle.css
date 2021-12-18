@@ -2,14 +2,9 @@
   position: relative;
   z-index: 1;
   width: 288px;
-  margin: 0 auto;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {

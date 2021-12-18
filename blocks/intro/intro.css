@@ -1,18 +1,21 @@
 .intro {
-  width: 90%;
-  padding: 64px 0;
+  align-self: flex-start;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 @media (min-width: 768px) {
   .intro {
-    width: 720px;
-    padding: 88px 0;
+    max-width: 720px;
+    padding-top: 88px;
+    padding-bottom: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
-    width: 690px;
-    padding: 92px 0;
+    max-width: 690px;
+    padding-top: 92px;
+    padding-bottom: 92px;
   }
 }
